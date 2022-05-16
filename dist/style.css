@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #1f2632;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  font-family: 'Manrope', sans-serif;
+  margin: 0;
+  flex-direction: column;
+}
+
+.container {
+  background-color: #323a49;
+  padding: 1.5rem;
+  border-radius: 5px;
+  text-align: center;
+  gap: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  
+  max-width: 500px;
+  margin: 2rem;
+}
+
+.container h5 {
+  color: #52ffa8;
+  font-size: 10px;
+}
+
+.container p {
+  color: white;
+}
+
+.container .div {
+  width: 100%;
+}
+
+.container .dice {
+  position: relative;
+  background: none;
+  width: 35px;
+  height: 32px;
+  top: 2.5rem;
+  cursor: pointer;
+  border-radius: 16px;
+  padding: 5px;
+  bottom: 10rem;
+  background: #52ffa8;
+}
+
+.container .dice img {
+  height: 13px;
+}
+
+.container .dice:hover {
+  -webkit-box-shadow: 0px 0px 78px 11px rgba(82, 255, 168, 0.97);
+          box-shadow: 0px 0px 78px 11px rgba(82, 255, 168, 0.97);
+}
+/*# sourceMappingURL=style.css.map */
+.attribution {
+  margin: 2rem;
+  color: #c0cde4;
+}
+.attribution a{
+  text-decoration: none;
+  color: rgb(235, 220, 220);
+  cursor: pointer;
+}
+.attribution a:hover{
+  opacity: 0.6;
+  transition: 0.2s ease-out;
+}
